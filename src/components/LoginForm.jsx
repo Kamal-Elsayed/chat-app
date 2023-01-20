@@ -22,7 +22,7 @@ const Modal = () => {
       window.location.reload();
       setError('');
     } catch (err) {
-      setError('Oops, incorrect credentials.');
+      setError('Please wirite "kamal" as username and password');
     }
   };
 
